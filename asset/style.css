@@ -1,0 +1,1221 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Poppins";
+}
+
+p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #656689;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 117px;
+	height: 50px;
+	color: #ff5b2e;
+	border-radius: 999px;
+}
+
+img {
+	object-fit: cover;
+}
+
+nav a:hover {
+	transition: ease 0.3s;
+	color: #000958;
+}
+
+.btn:hover {
+	transition: ease 0.3s;
+	background-color: #ff5b2e;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+header nav span {
+	color: #000958;
+}
+
+a {
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 14px;
+	text-align: center;
+	color: #5e6085;
+	text-decoration: none;
+}
+
+header .signup {
+	border: 1px solid #000958;
+}
+
+header img {
+	margin-right: 230px;
+}
+
+header a + a {
+	margin-left: 36px;
+}
+
+header .signup {
+	font-weight: 600;
+	color: #000958;
+	margin-left: 230px;
+}
+
+header {
+	background: #fffaf5;
+	padding-top: 26px;
+	padding-bottom: 10px;
+	position: sticky;
+	z-index: 1;
+	top: -10px;
+}
+
+/* hero */
+
+.hero {
+	background: #fffaf5;
+	padding-top: 100px;
+	padding-bottom: 700px;
+	height: 100vh;
+}
+
+.hero .image {
+	width: 609px;
+	position: relative;
+}
+
+.hero .content {
+	display: flex;
+}
+
+.hero .pet1 {
+	position: absolute;
+	width: 388px;
+	height: 488px;
+	border-radius: 16px;
+}
+.hero .pet2 {
+	position: absolute;
+	width: 186px;
+	height: 244px;
+	border-radius: 16px;
+	top: 302px;
+	left: 365px;
+}
+
+.hero .right {
+	position: absolute;
+	top: 0;
+	left: 377px;
+}
+
+.hero .left {
+	position: absolute;
+	left: -40px;
+	top: 248px;
+}
+
+.hero .title {
+	font-family: "Sora";
+	font-weight: 800;
+	font-size: 6.6rem;
+	line-height: 76px;
+	color: #000958;
+}
+
+.hero .desc {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 30px;
+	color: #656689;
+	margin-top: 24px;
+	width: 391px;
+}
+
+.hero .intro {
+	margin-top: 70px;
+	width: 517px;
+}
+
+.hero .serve {
+	position: absolute;
+}
+
+.hero .description {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 1.4rem;
+	color: #181e52;
+	/* line-height: 0px; */
+}
+
+.hero .pet {
+	display: flex;
+	margin-left: 14px;
+}
+
+.hero .seperate {
+	width: 39px;
+	height: 4px;
+	background: #000958;
+	opacity: 0.08;
+	border-radius: 10px;
+}
+
+.hero .seperate1 {
+	margin: 7px 0 6px 0;
+	width: 118px;
+}
+
+.hero .pett {
+	margin-bottom: 40px;
+}
+
+.hero .pet img {
+	margin-right: 9px;
+}
+
+.hero .serve {
+	position: relative;
+	top: 426px;
+	left: 129px;
+	padding-top: 20px;
+	width: 250px;
+	height: 156px;
+	background: #ffffff;
+	box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+	border-radius: 10px;
+}
+
+.hero .bottom .btn {
+	background: #ff5b2e;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ffffff;
+	width: 189px;
+	height: 60px;
+	border-radius: 31px;
+}
+
+.hero .bottom .btn:hover {
+	box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+	transition: ease 0.3s;
+}
+
+.hero .bottom {
+	display: flex;
+	align-items: center;
+}
+
+.hero .call {
+	font-size: 16px;
+	color: #000958;
+}
+
+.hero .call:hover {
+	transition: ease 0.3s;
+	text-decoration: underline;
+}
+
+.hero .bottom {
+	margin-top: 38px;
+}
+
+.hero .btn {
+	margin-right: 24px;
+}
+
+.hero .arrow {
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #fffaf5;
+	box-shadow: 4px 3px 10px -1px rgba(191, 41, 0, 0.4);
+}
+
+.agency {
+	background-color: #fffaf5;
+	height: 665px;
+}
+
+.agency .content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 559px;
+	margin: 0 auto;
+}
+
+.agency .best {
+	width: 477px;
+	height: 405px;
+	/* margin-right: 200px; */
+}
+
+.agency .desc {
+	margin-top: 24px;
+	width: 431px;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 30px;
+	color: #656689;
+}
+
+.agency .title {
+	margin-top: 15px;
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 62px;
+	color: #000958;
+}
+
+.agency .group {
+	display: flex;
+}
+
+.agency .square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	background: #ff5d31;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.agency span {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.8rem;
+	color: #48496a;
+}
+
+.agency .group {
+	margin-top: 34px;
+}
+
+.agency .group1 {
+	margin-top: 54px;
+}
+
+.t1 {
+	margin-right: 62px;
+}
+
+.t2 {
+	margin-right: 36px;
+}
+
+.agency .hug {
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 30px;
+}
+
+.agency .pap {
+	position: relative;
+	height: 559px;
+}
+
+.agency .rain {
+	position: absolute;
+	left: 400px;
+	top: 170px;
+}
+
+.agency .rectangle {
+	margin-top: 215px;
+	width: 494px;
+	height: 336px;
+	background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+	box-shadow: 11px 18px 65px rgba(255, 155, 121, 0.12);
+	border-radius: 16px;
+}
+
+.agency .exp {
+	position: absolute;
+	top: 165px;
+	right: 450px;
+	background: #5bd6e2;
+	box-shadow: -15px 26px 48px rgba(85, 240, 255, 0.17);
+	border-radius: 10px;
+	width: 136px;
+	height: 156px;
+	padding-top: 31px;
+}
+
+.agency .nb {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 4.2rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+.agency .foot {
+	position: absolute;
+	top: 125px;
+	right: 420px;
+}
+
+.agency .years {
+	margin: 0 auto;
+	width: 83px;
+	margin-top: 14px;
+	font-size: 1.4rem;
+	line-height: 20px;
+	text-align: center;
+	color: #c6f4f9;
+}
+
+.vacation {
+	background: #fffaf5;
+	padding-top: 50px;
+	padding-bottom: 185px;
+}
+
+.vacation .twins {
+	position: relative;
+	margin-right: 127px;
+}
+
+.vacation .content {
+	display: flex;
+}
+
+.vacation .cc1 {
+	position: absolute;
+	top: 427px;
+	left: 377px;
+}
+
+.vacation .cc2 {
+	position: absolute;
+	top: 442px;
+	left: 386px;
+}
+
+.vacation .cc3 {
+	position: absolute;
+	top: 447px;
+	left: 392px;
+}
+
+.vacation .cute {
+	width: 458px;
+	height: 500px;
+	border-radius: 18px;
+}
+
+.vacation .v11 {
+	position: absolute;
+	top: 260px;
+	left: 468px;
+}
+
+.vacation .v10 {
+	position: absolute;
+	top: 12.5px;
+	left: 389px;
+}
+
+.vacation .v8 {
+	position: absolute;
+	top: -15px;
+	left: 426px;
+}
+
+.vacation .v9 {
+	position: absolute;
+	top: 33px;
+	left: 425.5px;
+}
+
+.vacation .title {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 62px;
+	color: #000958;
+	margin-top: 36px;
+}
+
+.vacation .desc {
+	width: 511px;
+	margin-top: 24px;
+}
+
+.vacation .pet-care {
+	display: flex;
+	align-items: center;
+	margin-top: 52px;
+}
+
+.vacation .pet-care img {
+	margin-right: 10px;
+}
+
+.vacation .pc {
+	margin-right: 56px;
+}
+
+.vacation span {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 1.8rem;
+	line-height: 18px;
+	color: #48496a;
+}
+
+.vacation .seperate {
+	width: 557px;
+	height: 2px;
+	background-color: #ff5b2e;
+	margin-top: 10px;
+	opacity: 0.1;
+}
+
+.vacation .holiday {
+	margin-top: 36px;
+	width: 391px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.vacation .viewmore {
+	display: inline-block;
+	margin-top: 32px;
+	color: #ff5d31;
+}
+
+.vacation .viewmore:hover {
+	transition: ease 0.3s;
+	border-bottom: 1.5px solid #ff5d31;
+}
+
+.services {
+	background: #fff6ed;
+	padding-top: 68px;
+	padding-bottom: 139px;
+}
+
+.services .subtitle {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 16px;
+	text-align: center;
+	color: #5e6085;
+}
+
+.services .title {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 62px;
+	text-align: center;
+	color: #000958;
+	margin-top: 15px;
+}
+
+.services .group {
+	width: 294px;
+	height: 208px;
+	background: #ffffff;
+	border: 2px solid rgba(255, 188, 122, 0.26);
+	border-radius: 10px;
+}
+
+.services .sub-title {
+	position: relative;
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 2.2rem;
+	line-height: 22px;
+	color: #000958;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.services .desc {
+	width: 244px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 18px;
+	margin-left: 28px;
+}
+
+.services .arrow {
+	display: flex;
+	align-items: center;
+	margin-left: 28px;
+	margin-top: 24px;
+}
+
+.services .arrow img {
+	margin-left: 6px;
+}
+
+.services .sub-title::before {
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 22px;
+	background: orange;
+	margin-right: 12px;
+	left: -12px;
+}
+
+.services .service {
+	display: flex;
+	margin-top: 71px;
+}
+
+.services .group + .group {
+	margin-top: 24px;
+}
+
+.services .rectangle {
+	width: 410px;
+	height: 350px;
+	background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+	border-radius: 10px;
+}
+
+.services .big-pet {
+	margin: 0 86px;
+	position: relative;
+	margin-top: 260px;
+}
+
+.btn1 {
+	position: absolute;
+	bottom: -45px;
+	left: 98px;
+	width: 214px;
+	height: 56px;
+	border: 1px solid #ff5b2e;
+	border-radius: 31px;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 16px;
+	color: #ff5b2e;
+}
+
+.btn1:hover {
+	transition: ease 0.3s;
+	box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+	opacity: 0.6;
+}
+
+.groomers .sub-title {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #5e6085;
+}
+.groomers {
+	padding: 130px 0;
+	background: #fffaf5;
+}
+
+.groomers .title {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 62px;
+	text-align: center;
+	color: #000958;
+	padding-top: 15px;
+}
+
+.groomers .job {
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 29px;
+}
+
+.groomers .avatars {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 78px;
+}
+
+.groomers .name {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+	color: #000958;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.groomers .circle {
+	position: relative;
+	width: 234px;
+	height: 299px;
+	background: #90ccff;
+	border-radius: 129.5px;
+}
+
+.groomers .circle img {
+	position: absolute;
+	width: 234px;
+	height: 325px;
+	bottom: 0;
+	border-radius: 129.5px;
+}
+
+.groomers .avatar {
+	position: relative;
+}
+
+.groomers .rtg {
+	position: absolute;
+	top: 185px;
+	left: -18px;
+}
+
+.groomers .rtg1 {
+	top: 0;
+}
+
+.groomers .btn {
+	color: #ff5b2e;
+	border: 1px solid #ff5b2e;
+	width: 193px;
+	height: 56px;
+	border-radius: 31px;
+	margin: 48px auto;
+}
+
+.groomers .btn:hover {
+	transition: ease 0.3s;
+	opacity: 0.6;
+	box-shadow: 0px 13px 26px -8px;
+}
+
+.choices {
+	background: #fff6ed;
+	padding-top: 86px;
+	padding-bottom: 20px;
+}
+
+.choices .title {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 62px;
+	text-align: center;
+	color: #000958;
+}
+
+.choices .desc {
+	width: 709px;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 24px;
+}
+
+.choices .monthly {
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #ff5b2e;
+	border: 1px solid #ff5b2e;
+	border-radius: 31px;
+	padding: 17px 171px 17px 40px;
+	color: #ff5b2e;
+}
+
+.choices .my {
+	position: relative;
+	margin-top: 58px;
+	margin-left: 455px;
+}
+
+.choices .btn {
+	position: absolute;
+	background: #ff5b2e;
+	border-radius: 31px;
+	color: #fff;
+	width: 131px;
+	height: 56px;
+	top: -20px;
+	left: 145px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.choices .save {
+	position: absolute;
+	bottom: 10px;
+	left: 300px;
+}
+
+.choices .purchase {
+	display: flex;
+	margin-top: 76px;
+	gap: 44px;
+	width: 994px;
+	margin: 76px auto;
+}
+
+.choices .group {
+	width: 302px;
+	height: 465px;
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 30px 0 43px 0;
+}
+
+.choices .now {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 246px;
+	height: 44px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #ff5b2e;
+	border: 1px solid rgba(255, 91, 46, 0.6);
+	border-radius: 39px;
+	margin-top: 22px;
+}
+
+.choices .now:hover {
+	transition: ease 0.3s;
+	background: #ff5b2e;
+	color: #fff;
+}
+
+.choices .sub {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #ff5b2e;
+}
+
+.choices .sub-title {
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 18px;
+	color: #3f4065;
+	margin-top: 8px;
+}
+
+.choices .money {
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 33px;
+	line-height: 34px;
+	color: #000958;
+	margin-top: 24px;
+}
+
+.choices .money,
+.choices .now,
+.choices .sub,
+.choices .sub-title,
+.choices .list {
+	margin-left: 28px;
+}
+
+.choices span {
+	font-weight: 400;
+	font-size: 14px;
+	color: #656689;
+	margin-left: 14px;
+}
+
+.choices .list .item:first-child {
+	margin-top: 24px;
+}
+
+.choices .item + .item {
+	margin-top: 13px;
+}
+
+.reviews {
+	background: #fffaf5;
+	padding-top: 130px;
+}
+
+.reviews .meo {
+	position: relative;
+	width: 274px;
+	height: 350px;
+	background: #ffda54;
+	border-radius: 137px;
+}
+
+.reviews .dth {
+	position: absolute;
+	bottom: 0;
+	border-radius: 137px;
+}
+
+.reviews .circle {
+	margin-right: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 54px;
+	height: 54px;
+	border: 1.5px solid #ffd1c4;
+	border-radius: 50%;
+}
+
+.reviews i {
+	font-size: 15px;
+	color: #ff5b2e;
+}
+
+.reviews .circle:hover {
+	cursor: pointer;
+	transition: ease 0.3s;
+	background-color: #ff5b2e;
+	box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+}
+
+.reviews .circle:hover i {
+	transition: ease 0.3s;
+	color: #fff;
+}
+
+.reviews .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.reviews .content {
+	display: flex;
+}
+
+.reviews .review {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 62px;
+	color: #000958;
+}
+
+.reviews .sentence {
+	width: 553px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+	margin-top: 24px;
+}
+
+.reviews .review {
+	margin-left: 115px;
+	margin-top: 36px;
+}
+
+.reviews .name {
+	position: relative;
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 18px;
+	color: #282828;
+	margin-top: 34px;
+	margin-left: 28px;
+}
+
+.reviews .name::before {
+	position: absolute;
+	top: 50%;
+	left: -27px;
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 2px;
+	border-radius: 1px;
+	background: #000;
+}
+
+.reviews .c1 {
+	margin: 148px 0 0 76px;
+}
+
+.reviews .circle-group {
+	display: flex;
+	margin: 92px 0 0 60px;
+}
+
+.reviews .circle1 {
+	width: 8px;
+	height: 8px;
+	border: 1px solid #ff5b2e;
+	border-radius: 4px;
+}
+
+.reviews .circle1 + .circle1 {
+	margin-left: 8px;
+}
+
+.reviews .circle1:hover {
+	cursor: pointer;
+	width: 24px;
+	background-color: #ff5b2e;
+	transition: ease 0.3s;
+}
+
+.blogs {
+	background: #fffaf5;
+	padding: 130px 0;
+}
+
+.blogs .btn {
+	width: 182px;
+	height: 56px;
+	border: 1px solid #ff5b2e;
+	border-radius: 31px;
+	margin-top: 24px;
+}
+
+.blogs .top {
+	display: flex;
+	align-items: center;
+}
+
+.blogs .desc {
+	width: 350px;
+}
+
+.blogs .title {
+	margin-right: 512px;
+	font-family: "Sora";
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 62px;
+	color: #000958;
+}
+
+.blogs .date {
+	margin-left: 36px;
+	font-family: "Sora";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+}
+
+.blogs .rectangle {
+	padding-top: 24px;
+	width: 358px;
+	height: 362px;
+	background: #90ccff;
+	border-radius: 24px;
+}
+
+.blogs .image {
+	width: 322px;
+	height: 296px;
+	margin-top: 25px;
+	margin-left: 36px;
+}
+
+.blogs .group {
+	width: 358px;
+}
+
+.blogs .down {
+	margin-top: 54px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.blogs h2 {
+	margin-top: 28px;
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 34px;
+	color: #000958;
+}
+
+.blogs .description {
+	font-size: 14px;
+	margin-top: 16px;
+}
+
+footer {
+	display: flex;
+	background: #fffaf5;
+}
+
+footer .left {
+	position: relative;
+	width: 615px;
+	height: 516px;
+	background: #fff6ed;
+	padding-top: 114px;
+}
+
+footer .group {
+	width: 268px;
+	height: 254px;
+	margin-left: 135px;
+}
+
+footer input,
+footer button {
+	outline: none;
+	border: none;
+}
+
+footer input {
+	padding-left: 22px;
+	width: 268px;
+	height: 46px;
+	background: #ffffff;
+	border-radius: 23px;
+}
+
+footer input:hover {
+	border: 1px solid rgba(255, 91, 46, 0.25);
+}
+
+footer .email {
+	position: relative;
+	margin-top: 40px;
+	display: flex;
+}
+
+footer button {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	width: 45px;
+	height: 46px;
+	border-radius: 50%;
+	background: #ff5b2e;
+}
+
+footer button:hover {
+	box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+}
+
+footer .title {
+	margin-top: 68px;
+	font-family: "Sora";
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	color: #000958;
+}
+
+footer .circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+
+footer .circle:hover {
+	box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+}
+
+footer .social-media {
+	margin-top: 16px;
+	display: flex;
+}
+
+.social-media .circle + .circle {
+	margin-left: 16px;
+}
+
+footer h3 {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	color: #000958;
+}
+
+footer .right {
+	padding-top: 52px;
+	display: flex;
+}
+
+footer .right p {
+	font-size: 14px;
+}
+
+footer .right p + p {
+	margin-top: 8px;
+}
+
+.de {
+	margin-top: 14px;
+}
+
+.t3 {
+	margin-left: 129px;
+}
+
+.t4 {
+	margin-left: 80px;
+}
+
+.copy {
+	width: 167px;
+	font-size: 12px;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 48px;
+	left: 637px;
+}
