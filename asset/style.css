@@ -6,6 +6,7 @@
 
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -729,6 +730,7 @@ header {
 	transition: ease 0.3s;
 	opacity: 0.6;
 	box-shadow: 0px 13px 26px -8px;
+	color: #fff;
 }
 
 .choices {
